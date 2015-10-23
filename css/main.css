@@ -21,8 +21,20 @@ main{
 	display: block;
 }
 
-body{
+body, h3{
 	margin: 0;
+}
+
+nav ol{
+	padding: 0;
+}
+
+.align-left{
+	text-align: center;
+}
+
+h3{
+	text-align: center;
 }
 
 .img-flex{
@@ -30,9 +42,40 @@ body{
 }
 
 li{
-	display: inline-block;
+	display: block;
 }
 
 li a{
 	text-decoration: none;
+}
+
+nav ul{
+  list-style-type: none;
+  display: block;
+  padding: 0;
+}
+
+
+header{
+  background-color: lightgrey;
+  overflow: hidden;
+}
+
+@media only screen and (min-width: 24em){
+	  nav li{
+	    display: inline-block;
+	  }
+	  nav ul{
+	  	text-align: center;
+	  }
+}
+
+@media only screen and (min-width: 38em){
+	h3, .align-left{
+		text-align: left;
+	}
+}
+
+@media only screen and (min-width: 38em){
+
 }
