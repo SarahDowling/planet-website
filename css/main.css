@@ -55,10 +55,19 @@ nav ol{
   padding: 0;
 }
 
-
 header{
   background-color: lightgrey;
   overflow: hidden;
+}
+
+.l-grey-background{
+	background-color: #e2e2e2;
+}
+.m-grey-background{
+	background-color: #cbcbcb;
+}
+.d-grey-background{
+	background-color: #b7b7b7;
 }
 
 @media only screen and (min-width: 25em){
