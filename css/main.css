@@ -47,7 +47,7 @@ li a{
 	display: block;
 }
 
-nav ol{
+nav ol, footer ol{
   list-style-type: none;
 }
 
